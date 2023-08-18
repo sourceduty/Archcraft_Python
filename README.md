@@ -4,10 +4,12 @@ Using a terminal, follow the steps below to install Python and it's libraries on
 <br />
 
 ## Step 1: 
+Install Python.
 ```
 sudo pacman -S python
 ```
 ## Step 2:
+Full system upgrade.
 ```
 sudo pacman -Syyu
 ```
@@ -16,6 +18,7 @@ and
 sudo pacman -Syu --overwrite '*'
 ```
 ## Step 3:
+Update archlinux-keyring package.
 ```
 sudo pacman -S archlinux-keyring
 ```
@@ -23,7 +26,8 @@ and
 ```
 sudo pacman -Syu upgrade
 ```
-## Install libraries:
+## Step 4:
+Install Python libraries.
 ```
 sudo pacman -S python-library
 ```
